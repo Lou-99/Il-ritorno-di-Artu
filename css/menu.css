@@ -1,0 +1,48 @@
+body {
+ background-image: url("tex/Mattoni.png");
+ background-color: #7D8491;
+}
+
+
+
+.credits  {
+	position: absolute; top: 583px; left: 200px;
+opacity: 0.7;
+
+}
+
+
+a#storia  {
+	position: absolute; top: 470px; left: 255px;
+opacity: 0.7;
+}
+
+a#storia:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+
+a#start  {
+	position: absolute; top: 526px; left: 260px;
+opacity: 0.7;
+}
+
+a#start:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+
+.credits:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+
+a#indietro {
+	position: absolute; top: 50px; left: 50px;
+opacity: 0.7;
+}
+
+a#indietro:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}

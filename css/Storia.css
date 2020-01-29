@@ -1,0 +1,42 @@
+body {
+ background-image: url("tex/Mattoni.png");
+ background-color: #7D8491;
+}
+
+.mySlides {display:none;
+	height: 768 px;
+	width: 1024 px;}
+
+.display {
+	height: 768 px;
+	width: 1024 px;}
+
+.buttonDX { height: 50 px;
+	width: 50 px;
+        position: absolute; top: 359px; left: 974px;
+	opacity: 0.7;}
+
+.buttonDX:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+
+.buttonSX { height: 50 px;
+	width: 50 px;
+        position: absolute; top: 359px; left: 15px;
+	opacity: 0.7;}
+
+.buttonSX:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}
+
+a#start  {
+	position: absolute; top: 783px; left: 459px;
+opacity: 0.7;
+}
+
+a#start:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}

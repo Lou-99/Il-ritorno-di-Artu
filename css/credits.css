@@ -1,0 +1,14 @@
+body {
+ background-image: url("tex/Mattoni.png");
+ background-color: #7D8491;
+}
+
+a#indietro {
+	position: absolute; top: 50px; left: 50px;
+opacity: 0.7;
+}
+
+a#indietro:hover {
+  opacity:1.0;
+  filter:alpha(opacity=100); 
+}

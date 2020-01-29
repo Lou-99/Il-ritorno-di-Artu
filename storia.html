@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>Storia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Storia.css">
+<body>
+
+<div class="display">
+  <img class="mySlides" src="tex/1_Excalibur.png" >
+  <img class="mySlides" src="tex/2_Secchio.png" >
+  <img class="mySlides" src="tex/3_allenamento.png" >
+  <img class="mySlides" src="tex/4_Neve.png" >
+  <img class="mySlides" src="tex/5_Incoronazione.png" >
+  <img class="mySlides" src="tex/6_evento significativo.png">
+
+  <input type="image" src="tex/FrecciaSX.png" class="buttonSX" onclick="plusDivs(-1)"/>
+  <input type="image" src="tex/FrecciaDX.png" class="buttonDX" onclick="plusDivs(1)"/>
+</div>
+
+<a href="start.html" id="start">
+	<img src="tex/GIOCA.png" class="img" width="105">
+</a>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = x.length}
+  if (n < 1) {slideIndex = 1}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
